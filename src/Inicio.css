@@ -1,0 +1,87 @@
+header {
+    text-align: center;  
+}
+header h1{
+    color: darkolivegreen;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(7, 6, 6);
+    background-color: rgb(38, 224, 78);
+    padding: 8px;
+    border-radius: 10px;
+
+}
+.container{
+    display: flex;
+
+}
+.container .cartas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    height: 600px;
+}
+.container .carta{
+    width: 25%;
+    text-align: center;
+    padding: 5px 10px;
+   }
+   .container .carta img{
+       width: 100%;
+       height: 200px;
+       margin: o;
+   }
+   .container .carta p{
+    text-align: center;
+    color: rgb(17, 16, 16);   
+   }
+   .container .carta .texto{
+    background-color: rgb(38, 224, 78);
+    padding: 20px;
+    border-radius: 20px;
+   }
+
+.container aside{
+    width: 25%;
+    text-align: center;
+    padding: 30px 5px;
+    color: darkolivegreen;
+}
+.container aside img{
+    width: 80%;
+}
+.descripcion{
+    text-align: center;
+    background-color: rgb(38, 224, 78);
+    border-radius: 30px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 30px;
+}
+footer .footer_txt{
+    width: 30%;
+    color: darkolivegreen;
+    text-align: right;
+}
+footer .footer_img{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+}
+footer .footer_img img{
+    width: 55px;
+    height: 55px;
+}
